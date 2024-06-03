@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8d8d8; /* Greyish background */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header h2 {
+    background-color: #cccccc; /* Light grey */
+    color: #444444; /* Dark grey */
+    padding: 10px;
+    text-align: center;
+    font-family: helvetica; /* Corrected typo */
+}
+
+nav ul {
+    list-style-type: none;
+    position: relative;
+    bottom: 50px;
+}
+
+    nav ul li a {
+        text-decoration: none;
+        color: #666666; /* Medium grey */
+    }
+
+        nav ul li a:hover {
+            color: #333333; /* Dark grey */
+        }
+
+.table {
+    padding: 20%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e6e6e6; /* Light grey */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 82px;
+    left: 460px;
+}
+
+.add-ons {
+    margin-top: 3%;
+    padding: 1%;
+    max-width: 1000px;
+    background-color: #f2f2f2; /* Light grey */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 80px;
+    font-family: poppins;
+    font-size: 18px; /* Corrected value */
+}
+
+#item {
+    font-weight: bold;
+}
+
+.status {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e6e6e6; /* Light grey */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 1150px;
+    left: 300px;
+    margin-left: 15%;
+}
+
+.order {
+    margin-left: auto;
+    margin-right: auto;
+    color: #333333; /* Dark grey */
+}
+
+table tr td {
+    padding: 10px;
+}
+
+.warn {
+    font-size: 12px;
+    text-align: center;
+}
+
+.cancel {
+    text-decoration: none;
+    color: #333333; /* Dark grey */
+}
+
+    .cancel:hover {
+        color: #0066cc; /* Blue with transparency */
+    }
+
+#place_order {
+    padding-left: 25%;
+    color: #333333; /* Dark grey */
+}

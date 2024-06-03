@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap"); /* Different font */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; /* Changed font */
+}
+
+body {
+    background: #e0e0e0; /* Greyish background */
+}
+
+#head {
+    font-size: 28px; /* Slightly reduced font size */
+    color: #555; /* Dark grey text color */
+    padding: 8px; /* Reduced padding */
+    padding-left: 28px; /* Adjusted padding */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Adjusted alignment */
+    align-items: center;
+    position: absolute;
+    top: 28px; /* Adjusted position */
+    left: 1050px; /* Adjusted position */
+    font-size: 18px; /* Reduced font size */
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 16px; /* Slightly reduced margin */
+}
+
+    nav ul li a {
+        text-decoration: none;
+        color: #555; /* Dark grey text color */
+        transition: color 0.3s;
+    }
+
+        nav ul li a:hover {
+            color: #777; /* Lighter grey text color on hover */
+        }
+
+#logo {
+    position: absolute;
+    left: 80px; /* Adjusted position */
+    top: 120px; /* Adjusted position */
+}
+
+#message {
+    color: #555; /* Dark grey text color */
+    font-size: 28px; /* Slightly reduced font size */
+    position: absolute;
+    left: 480px; /* Adjusted position */
+    top: 200px; /* Adjusted position */
+}
+
+#product {
+    position: absolute;
+    left: 750px; /* Adjusted position */
+    top: 360px; /* Adjusted position */
+}

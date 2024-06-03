@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(190, 190, 190); /* Greyish background */
+}
+
+label {
+    font-family: 'Courier New', monospace; /* Different font */
+    margin-left: 480px; /* Adjusted margin */
+    margin-bottom: 4%; /* Slightly increased margin */
+}
+
+h2 {
+    font-family: 'Lucida Console', monospace; /* Different font */
+    color: #555; /* Dark grey color */
+    margin-left: 42%; /* Adjusted margin */
+    margin-bottom: 1.5%; /* Slightly increased margin */
+}
+
+table {
+    margin-left: 32%; /* Adjusted margin */
+    font-size: small; /* Smaller font size */
+    text-align: center;
+    border-spacing: 6px; /* Reduced spacing */
+    border: 4px solid #777; /* Dark grey border */
+    border-radius: 4px;
+    padding: 15px; /* Reduced padding */
+    background-color: #e0e0e0; /* Light grey background */
+    color: #666; /* Light grey text color */
+}
+
+#add_item {
+    margin-left: 47%; /* Adjusted margin */
+    background-color: #ccc; /* Light grey background */
+}
+
+.remove-btn {
+    background-color: #bbb; /* Grey background */
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: #ccc; /* Greyish background */
+}
+
+h3 {
+    font-family: 'Arial', sans-serif; /* Different font */
+    color: #555; /* Dark grey text color */
+    margin-top: 50px; /* Adjusted margin */
+    text-align: center;
+    font-size: 20px; /* Adjusted font size */
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace; /* Different font */
+    color: #555; /* Dark grey text color */
+    text-align: center;
+}
+
+#table_one, #table_two {
+    margin: 10px;
+    border: 10px;
+    margin-left: 35%; /* Adjusted margin */
+    border-spacing: 10px;
+    text-align: center;
+    border: 2px solid #888; /* Dark grey border */
+    background-color: #ddd; /* Light grey background */
+    font-size: 16px; /* Adjusted font size */
+    border-radius: 8px; /* Adjusted border radius */
+}

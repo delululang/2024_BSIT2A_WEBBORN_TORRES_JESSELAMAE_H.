@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(253, 231, 201);
+}
+table{
+    margin: 5%;
+    padding: 3%;
+    size: 20;
+    background-color: white;
+    font-size: 15px;
+    position: relative;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid #4c3228;
+    background-origin: padding-box;
+    text-align: center;
+    margin-left: 5%;
+    position: fixed;
+}
+#comment{
+    text-align: left;
+}
+h2{
+    color: #3c280d;
+    margin-left: 45%;
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+td{
+    width: 10%;
+}
+
+#user_id, #feedback_id, #rating, #feedback_date{
+    width: 0;
+}
+
+
+

@@ -1,0 +1,62 @@
+body {
+    background-color: #e0e0e0; /* Greyish background */
+}
+
+.container {
+    background-color: #bfbfbf; /* Dark grey background */
+    font-family: 'Courier New', monospace; /* Different font */
+    margin-top: 2%; /* Reduced margin */
+    margin-bottom: 2%; /* Reduced margin */
+    margin-left: 10%; /* Adjusted margin */
+    width: 80%; /* Adjusted width */
+    border: 3px dashed #888; /* Grey dashed border */
+    padding: 30px; /* Adjusted padding */
+    padding-bottom: 5%; /* Adjusted padding */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Slightly different shadow */
+    border-radius: 6px; /* Reduced border radius */
+}
+
+#message {
+    max-width: 70%; /* Adjusted width */
+    max-height: 20%; /* Adjusted height */
+    margin-left: 25%; /* Adjusted margin */
+}
+
+button {
+    padding: 8px 16px; /* Adjusted padding */
+    font-size: medium;
+    color: #ffffff; /* White text color */
+    margin-bottom: 2%; /* Reduced margin */
+    margin-left: 40%; /* Adjusted margin */
+    margin-top: 5%; /* Adjusted margin */
+    background-color: #ff5733; /* Orange background */
+    font-family: Arial, sans-serif; /* Different font */
+    border-radius: 4px; /* Rounded corners */
+}
+
+h2 {
+    font-size: 20px; /* Adjusted font size */
+    font-family: 'Trebuchet MS', sans-serif; /* Different font */
+    color: #ff5733; /* Orange color */
+    font-weight: 600; /* Adjusted font weight */
+}
+
+#your_message {
+    font-size: 24px; /* Adjusted font size */
+    margin-top: 5%; /* Adjusted margin */
+}
+
+#cancel {
+    padding-top: 5%; /* Adjusted padding */
+    font-style: normal;
+    margin-left: 45%; /* Adjusted margin */
+    font-size: 14px; /* Adjusted font size */
+    margin-bottom: 5%; /* Adjusted margin */
+}
+
+label {
+    font-size: medium; /* Font size */
+    color: #ff5733; /* Orange text color */
+    margin-left: 25%; /* Adjusted margin */
+    font-style: italic; /* Italic font style */
+}

@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(220, 220, 220); /* Greyish background */
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif; /* Slightly changed font */
+    margin-left: 500px; /* Adjusted margin */
+    margin-bottom: 3%; /* Reduced margin */
+}
+
+h2{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Changed font */
+    color: #555; /* Dark grey color */
+    margin-left: 40%; /* Adjusted margin */
+    margin-bottom: 1%; /* Reduced margin */
+}
+
+table{
+    margin-left: 30%; /* Adjusted margin */
+    font-size: medium; /* Slightly smaller font size */
+    text-align: center;
+    border-spacing: 8px; /* Reduced spacing */
+    border: 3px solid #999; /* Dark grey border */
+    border-radius: 3px;
+    padding: 20px; /* Reduced padding */
+    background-color: #f4f4f4; /* Light grey background */
+    color: #666; /* Light grey text color */
+}
+
+#add_item{
+    margin-left: 45%; /* Adjusted margin */
+    background-color: #ddd; /* Light grey background */
+}
+
+.remove-btn{
+    background-color: #ccc; /* Grey background */
+}

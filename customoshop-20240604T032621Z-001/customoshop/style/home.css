@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap"); /* Different font */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; /* Changed font */
+}
+
+body {
+    background: #e0e0e0; /* Greyish background */
+    background-image: url(background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+#head {
+    font-size: 30px; /* Slightly reduced font size */
+    color: #555; /* Dark grey text color */
+    padding: 16px 0; /* Reduced padding */
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Adjusted alignment */
+    align-items: left;
+    position: absolute;
+    font-size: 18px;
+    padding: 20px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 16px; /* Slightly reduced margin */
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #100c0c; /* Dark grey text color */
+    transition: color 0.3s;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+    nav ul li a:hover {
+        color: #100c0c; /* Lighter grey text color on hover */
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+#logo {
+        margin: 20px 0; /* Adjusted margin */
+        width: 150px;
+        height: auto;
+        position: absolute;
+        left: 150px; /* Position at the left side with some margin */
+        top: 20px; /* Adjusted top position */
+    }
+    
+#message {
+    color: #040000; /* Dark grey text color */
+    font-size: 28px; /* Slightly reduced font size */
+    position: relative;
+    width: 80%;
+    text-align: center;
+    margin-top: 200px; /* Adjusted position */
+    
+}
+
+#product {
+    position: absolute;
+    left: 750px; /* Adjusted position */
+    top: 360px; /* Adjusted position */
+}
+@media (max-width: 768px){
+    #message{
+        font-size: 24px;
+        margin-top: 150px;
+    }
+}

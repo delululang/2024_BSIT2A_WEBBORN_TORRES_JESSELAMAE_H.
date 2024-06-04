@@ -1,0 +1,66 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Different font */
+    margin: 0;
+    padding: 0;
+    background: url(background3.jpg) no-repeat center center fixed; /* Add your background image URL */
+    background-size: cover; /* Ensure the background image covers the entire body */
+}
+
+header {
+    background-color: #777; /* Dark grey background */
+    color: #eee; /* Light grey text color */
+    padding: 16px; /* Reduced padding */
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, sans-serif; /* Different font */
+    color: #555; /* Dark grey text color */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 16px; /* Reduced margin */
+    }
+
+        nav ul li a {
+            color: #ddd; /* Light grey text color */
+            text-decoration: none;
+        }
+
+.container {
+    max-width: 1100px; /* Adjusted max width */
+    margin: 10px auto; /* Adjusted margin */
+    padding: 0 10px; /* Reduced padding */
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjusted alignment */
+}
+
+.product {
+    width: 280px; /* Adjusted width */
+    border: 2px solid #999; /* Dark grey border */
+    margin: 8px; /* Reduced margin */
+    padding: 8px; /* Reduced padding */
+    background-color: #ccc; /* Light grey background */
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif; /* Different font */
+    color: #555; /* Dark grey text color */
+}
+
+    .product img {
+        width: 100%;
+        height: auto;
+    }
+
+    .product h3 {
+        margin-top: 8px; /* Reduced margin */
+    }

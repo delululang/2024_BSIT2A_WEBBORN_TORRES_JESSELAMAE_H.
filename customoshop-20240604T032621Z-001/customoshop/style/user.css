@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* Different font */
+    background-color: #666; /* Dark grey background */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace; /* Different font */
+    text-align: center;
+    color: #444; /* Dark grey text color */
+}
+
+header {
+    background-color: #777; /* Dark grey background */
+    padding: 8px; /* Reduced padding */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 8px; /* Reduced margin */
+    }
+
+        nav ul li a {
+            color: #555; /* Dark grey text color */
+            text-decoration: none;
+        }
+
+.container {
+    max-width: 700px; /* Adjusted max width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #888; /* Dark grey background */
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Slightly different shadow */
+    padding-bottom: 3%; /* Reduced padding */
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 16px; /* Reduced margin */
+}
+
+    .product img {
+        padding: 2%;
+        width: 100%;
+        max-width: 180px; /* Adjusted max width */
+        height: auto;
+        border-radius: 6px; /* Adjusted border radius */
+        margin-bottom: 4px; /* Reduced margin */
+    }
+
+    .product h3 {
+        margin: 0;
+        font-size: 16px; /* Adjusted font size */
+        font-family: Arial, Helvetica, sans-serif;
+        color: #555; /* Dark grey text color */
+    }
+
+    .product p {
+        margin: 4px 0; /* Adjusted margin */
+        font-size: 14px; /* Adjusted font size */
+        color: #555; /* Dark grey text color */
+        font-family: 'Arial Narrow', sans-serif; /* Different font */
+    }
